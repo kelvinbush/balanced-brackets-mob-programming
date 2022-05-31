@@ -1,6 +1,6 @@
 function balancedBrackets(string) {
  // ignore non brackets
-  string = string.replace(/[^\[\]\{\}\(\)]/g, '');
+  string = string.replace(/[^\[\]{}()]/g, '');
   // check if string is empty
   if (string.length === 0) {
     return true;
